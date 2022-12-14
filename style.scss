@@ -1,0 +1,106 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+header{
+    background-image: url(./img/header_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 217px;
+    padding-bottom: 493px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    grid-column: span 8;
+}
+
+.header__text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    grid-column: span 5;
+}
+
+.btn{
+    padding: 13px;
+    padding-left: 74px; ;
+    padding-right: 74px;
+    background: #9C0332;
+    border-radius: 30px;
+    grid-column: span 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    &__text{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+}
+
+.selectGame{
+    background-color: #000915;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns:repeat(12, 1fr);
+}
+
+.game{
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    &__1{
+        background-image: url(./img/game_1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-column: span 4;
+    }
+    &__2{
+        background-image: url(./img/game_2.jpg);
+        background-size: cover;
+         background-repeat: no-repeat;
+        background-position: center;
+        grid-column: span 4;
+    }
+    &__3{
+        background-image: url(./img/game_3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-column: span 4;
+    }
+    &__text{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+}
+
