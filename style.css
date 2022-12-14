@@ -76,21 +76,21 @@ header {
   padding-bottom: 32px;
 }
 .game__1 {
-  background-image: url(./img/gmae1.jpg);
+  background-image: url(./img/game_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   grid-column: span 4;
 }
 .game__2 {
-  background-image: url(./img/gmae2.jpg);
+  background-image: url(./img/game_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   grid-column: span 4;
 }
 .game__3 {
-  background-image: url(./img/gmae3.jpg);
+  background-image: url(./img/game_3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
