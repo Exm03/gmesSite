@@ -38,15 +38,18 @@ header {
   grid-column: span 5;
 }
 
+.header__btn {
+  grid-column: span 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
 .btn {
   padding: 13px;
   padding-left: 74px;
   padding-right: 74px;
   background: #9C0332;
   border-radius: 30px;
-  grid-column: span 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
 }
 .btn__text {
   text-decoration: none;
