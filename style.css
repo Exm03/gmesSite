@@ -82,6 +82,7 @@ header {
   align-items: flex-end;
   padding-left: 32px;
   padding-bottom: 32px;
+  border: none;
 }
 .game:hover {
   border: 3px solid #44D2FF;
