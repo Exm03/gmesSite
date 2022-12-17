@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .selectGame {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}/*# sourceMappingURL=mobile.css.map */

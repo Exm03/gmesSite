@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,6 +51,11 @@ header {
   padding-right: 74px;
   background: #9C0332;
   border-radius: 30px;
+  border: none;
+}
+.btn:hover {
+  background: #EB443F;
+  transition: all 0.3s;
 }
 .btn__text {
   text-decoration: none;
@@ -69,7 +75,6 @@ header {
 }
 
 .game {
-  width: 379px;
   height: 300px;
   border-radius: 16px;
   display: flex;
@@ -77,6 +82,10 @@ header {
   align-items: flex-end;
   padding-left: 32px;
   padding-bottom: 32px;
+}
+.game:hover {
+  border: 3px solid #44D2FF;
+  transition: all 0.3s;
 }
 .game__1 {
   background-image: url(./img/game_1.jpg);
@@ -105,4 +114,34 @@ header {
   font-size: 24px;
   line-height: 32px;
   color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  header {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .title {
+    font-size: 32px;
+    line-height: 39px;
+    grid-column: span 4;
+    text-align: center;
+  }
+  .header__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    grid-column: span 4;
+  }
+  .header__btn {
+    display: flex;
+    grid-column: span 4;
+    justify-content: center;
+  }
+  .selectGame {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */
