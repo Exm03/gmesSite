@@ -32,4 +32,34 @@
     .selectGame{
         grid-template-columns:repeat(4, 1fr);
     }
+
+    .gameOne{
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 51px;
+        padding-bottom: 85px;
+        &__title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            grid-column: span 4;
+        }
+    }
+
+    .gameBox{
+        align-items: center;
+        justify-content: center;
+        grid-column: span 4;
+        gap: 32px;
+    &__img{
+        grid-column: span 4;
+        display: flex;
+        justify-content: space-around;
+    }
+    }
 }
+
