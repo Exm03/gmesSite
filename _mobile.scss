@@ -61,5 +61,18 @@
         justify-content: space-around;
     }
     }
+
+    .gameSecond{
+        align-items: center;
+        justify-content: center;
+        grid-column: span 4;
+        gap: 32px;
+        &__img{
+            grid-column: span 4;
+            display: flex;
+            justify-content: space-around;
+            grid-row-end: 3;
+        }
+    }
 }
 
