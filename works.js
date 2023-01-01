@@ -1,7 +1,7 @@
 function firstGame() {
     let yesNo = confirm("Ты готов играть?")
     if (yesNo == false) {
-        alert("Жаль =(")
+        alert("Жаль =(");
     } else { let i = Number(prompt("Введите число от 1 до 12"));
     if (i == 1 || i == 2 || i == 12) {
         return console.log('Зима');
