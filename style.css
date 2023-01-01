@@ -169,6 +169,20 @@ header {
   display: flex;
 }
 
+.gameSecond {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-column: span 6;
+  grid-column-end: 13;
+}
+.gameSecond__img {
+  grid-column-end: 6;
+  grid-column: span 5;
+  display: flex;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -223,5 +237,17 @@ header {
     grid-column: span 4;
     display: flex;
     justify-content: space-around;
+  }
+  .gameSecond {
+    align-items: center;
+    justify-content: center;
+    grid-column: span 4;
+    gap: 32px;
+  }
+  .gameSecond__img {
+    grid-column: span 4;
+    display: flex;
+    justify-content: space-around;
+    grid-row-end: 3;
   }
 }/*# sourceMappingURL=style.css.map */
